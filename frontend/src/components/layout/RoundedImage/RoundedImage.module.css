@@ -1,0 +1,11 @@
+.image_container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.image_container.px75 {
+  width: 75px;
+  height: 75px;
+}
