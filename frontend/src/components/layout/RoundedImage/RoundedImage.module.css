@@ -5,7 +5,7 @@
   object-fit: cover;
 }
 
-.image_container.px75 {
-  width: 75px;
-  height: 75px;
+.image_container.px100 {
+  width: 100px;
+  height: 100px;
 }

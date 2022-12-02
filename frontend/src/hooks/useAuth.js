@@ -34,7 +34,7 @@ const useAuht = () => {
     setAuthenticated(false);
     localStorage.removeItem("token");
     api.defaults.headers.Authorization = undefined;
-    navigate.push("/");
+    navigate("/");
   };
 
   const register = async (user) => {
